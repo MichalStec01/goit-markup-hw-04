@@ -109,6 +109,9 @@ img {
     margin-right: 30px;
     flex-basis: calc(100% / 3 - 30px);
 }
+figure {
+    border: 1px solid #FFFFFF;
+}
 /* ===========footer=========== */
 .footer {
     height: 252px;
