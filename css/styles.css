@@ -74,6 +74,7 @@ img {
 }
 .contact-link {
     margin-right: 30px;
+    fill: #757575;
 }
 /* ===========main:buttons=========== */
 .section-main-buttons {
@@ -154,11 +155,11 @@ img {
     padding-top: 20px;
     padding-bottom: 100px;
     margin-left: 70px;
-    
 }
 .social-icon {
     width: 20px;
     height: 20px;
+    fill: var(--fourth-color);
 }
 .social-link {
     display: flex;
@@ -285,7 +286,64 @@ img {
     flex-direction: column;
     align-items: center;
 }
-
+.main-team-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--first-color)
+    display: block;
+    padding-bottom: 50px;
+}
+.team-images-list {
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+}
+.team-images-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--fourth-color);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.fullname {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--first-color);
+    padding-top: 30px;
+}
+.workplace {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--second-color);
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
+.team-socialmedia-links {
+    display: flex;
+    width: 206px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.team-socialmedia-icon {
+    width: 20px;
+    height: 20px;
+}
+.team-socialmedia-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #AFB1B8;
+}
+.team-socialmedia-link:hover,
+.team-socialmedia-link:focus {
+    background-color: var(--third-color);
+    cursor: var(--first-cursor);
+    fill: #ffffff;
+}
 /* ============================ */
 
 .btn:hover,
