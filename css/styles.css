@@ -42,11 +42,6 @@ p {
 img {
     display: block;
 }
-.container {
-    width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
-}
 /* ===========header=========== */
 .section-header {
     background-color: var(--fourth-background-color);
@@ -211,6 +206,45 @@ img {
 .social-link:hover,
 .social-link:focus {
     background-color: var(--third-color);
+}
+/* ===========our customers=========== */
+.our-customers {
+    background-color: var(--fourth-background-color);
+
+}
+.container-our-customers {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.customers-icon {
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+}
+.customers {
+    display: flex;
+    width: 1170px;
+    justify-content: space-between
+}
+.customers-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--first-color);
+    padding-bottom: 50px;
+}
+.customers-icon:hover,
+.customers-icon:focus {
+    fill: var(--third-color);
+    border: 1px solid #2196F3;
+    cursor: var(--first-cursor);
 }
 /* ============================ */
 .hero {
