@@ -76,6 +76,44 @@ img {
     margin-right: 30px;
     fill: #757575;
 }
+/* ===========lorem ipsum=========== */
+.services {
+    background-color: var(--first-background-color);
+    padding-top: 94px;
+}
+.container-services {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px; 
+}
+.services-list {
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+}
+.services-list-item {
+    display: flex;
+    flex-direction: column;
+}
+.service-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--first-color);
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.service-desc {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--second-color);
+}
+.services-icon {
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background-color: var(--third-background-color);
+}
 /* ===========main:buttons=========== */
 .section-main-buttons {
     background-color: var(--first-background-color);
@@ -208,6 +246,32 @@ img {
 .social-link:focus {
     background-color: var(--third-color);
 }
+/* =======what are we doing=========== */
+.specialization {
+    background-color: var(--first-background-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.container-specialization {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.specializations-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--first-color);
+    display: block;
+    padding-bottom: 50px;
+}
+.specializations-list {
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+}
 /* ===========our customers=========== */
 .our-customers {
     background-color: var(--fourth-background-color);
@@ -245,32 +309,6 @@ img {
     fill: var(--third-color);
     border: 1px solid #2196F3;
     cursor: var(--first-cursor);
-}
-/* ============================ */
-.hero {
-    display: flex;
-    flex-direction: column;
-}
-.section-hero {
-    background-color: var(--second-background-color);
-}
-.title {
-    padding: 200px 280px 30px;
-}
-.btn {
-    margin: 0 auto;
-}
-.services {
-    display: flex;
-}
-.service-item {
-    padding: 94px 30px;
-}
-.specializations {
-    display: flex;
-}
-.specialization-item {
-    padding: 50px 15px 94px;
 }
 /* ===========team============= */
 .main-team {
@@ -345,7 +383,6 @@ img {
     fill: #ffffff;
 }
 /* ============================ */
-
 .btn:hover,
 .btn:focus {
     cursor: var(--first-cursor);
@@ -403,6 +440,9 @@ img {
 span {
     color:var(--third-color);
 }
+/* ============================ */
+
+
 .alt,
 .service-desc {
     color:var(--second-color);
@@ -416,27 +456,4 @@ span {
 }
 .btn {
     font-size: 16px;
-}
-.title {
-    font-size: 44px;
-    color:var(--fourth-color);
-    text-align: center;
-}
-.service-name,
-.service-desc {
-    font-size: 14px;
-}
-.service-name {
-    line-height: 1.172;
-}
-.service-desk {
-    line-height: 1.714;
-}
-h2 {
-    font-size: 36px;
-}
-.name {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.171;
 }
