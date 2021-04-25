@@ -210,7 +210,6 @@ img {
 /* ===========our customers=========== */
 .our-customers {
     background-color: var(--fourth-background-color);
-
 }
 .container-our-customers {
     width: 1200px;
@@ -272,40 +271,21 @@ img {
 .specialization-item {
     padding: 50px 15px 94px;
 }
-.head {
-    text-align: center;
-    padding: 94px 495px 50px;
-}
-.team {
-    margin-bottom: -94px;
-}
-.team-list {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.picture {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 94px;
-}
-.name {
-    text-align: center;
-    padding-top: 30px
-}
-.alt-name {
-    text-align: center;
-    padding-bottom: 30px;
-    color: var(--second-color);
-    font-size: 16px;
-    font-weight: 400px;
-}
+/* ===========team============= */
 .main-team {
     background-color: var(--third-background-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
-.name-position {
-    background-color: var(--fourth-background-color)
+.container-main-team {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 /* ============================ */
 
 .btn:hover,
